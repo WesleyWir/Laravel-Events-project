@@ -3,5 +3,6 @@
 @section('title', 'Produtos')
 
 @section('content')
-<h1>Está é a view de Contato.</h1>
+<h1>Tela de Produto</h1>
+
 @endsection
