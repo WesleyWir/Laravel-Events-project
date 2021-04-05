@@ -33,5 +33,22 @@
         @else
             <p>O nome não é Zé, é {{$nome}}, e ele tem {{$idade}} anos.</p>
         @endif
+
+        @for($i = 0;  $i < count($array); $i++)
+            <p>{{$array[$i]}}</p>
+        @endfor
+
+        @foreach($nomes as $nome)
+            <p>{{$loop->index}}</p>
+            <p>{{$nome}}</p>
+        @endforeach
+
+        @php
+            $name = "João";
+            echo $name;    
+        @endphp
+
+        <!-- Comentário HTML -->
+        {{-- Comentário com Blade --}}
     </body>
 </html>
