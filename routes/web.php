@@ -13,19 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $nome = "Wesley";
-    $idade = 18;
-    $arr =[10, 20, 30, 40, 50];
-    $nomes = ['Zé', 'João', 'Wesley', 'Outro Zé'];
+use App\Http\Controllers\EventController;
 
-    return view('welcome', 
-    ['nome' => $nome, 
-    'idade' => $idade,
-    'array' => $arr,
-    'nomes' => $nomes
-    ]);
-});
+Route::get('/', [EventController::class, 'index']);
 
 Route::get('/contato', function () {
     return view('contact');
