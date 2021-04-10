@@ -121,7 +121,22 @@
     font-size: 14px;
     color: #757575;
   }
-  
+
+  /* event create */
+  #event-create-container{
+    padding: 30px;
+  }
+
+  #event-create-container label{
+    font-weight: bold;
+  }
+
+  #events-create-container input,
+  #events-create-container select,
+  #events-create-container textarea{
+    font-size: 12px;
+  }
+
   /* footer */
   footer {
     text-align: center;
