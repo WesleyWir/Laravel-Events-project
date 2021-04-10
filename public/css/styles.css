@@ -31,6 +31,14 @@
     background-color: #C28008;
     border-color: #C28008;
   }
+
+  .msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    text-align: center;
+    padding: 10px;
+  }
   
   /* navbar */
   #navbar img {
